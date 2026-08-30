@@ -49,8 +49,8 @@ importers:
         specifier: ^26.1.2
         version: 26.1.2
       '@vvago/vale':
-        specifier: ^3.17.0
-        version: 3.17.0
+        specifier: ^3.17.1
+        version: 3.17.1
       astro-eslint-parser:
         specifier: ^1.4.0
         version: 1.4.0(supports-color@10.2.2)
@@ -1351,8 +1351,8 @@ packages:
   '@vscode/l10n@0.0.18':
     resolution: {integrity: sha512-KYSIHVmslkaCDyw013pphY+d7x1qV8IZupYfeIfzNA+nsaWHbn5uPuQRvdRFsa9zFzGeudPuoGoZ1Op4jrJXIQ==}
 
-  '@vvago/vale@3.17.0':
-    resolution: {integrity: sha512-vzVFOzr0y9dbXfHqnpgfs8juCflYZpqDmbNyUqdjuTzfNuATtzthTRrqE67RZt5N51FBkJiv58vFjc6ySVgjjg==}
+  '@vvago/vale@3.17.1':
+    resolution: {integrity: sha512-UO8fgaPQoaoTJhMOzL5eIjsC52tH97PE1cCnXRZqsBmu6VDzjyyMcSztLX3UWiSswYzz046ckL296ngM9z/fAA==}
     hasBin: true
 
   abbrev@2.0.0:
@@ -5300,7 +5300,7 @@ snapshots:
 
   '@vscode/l10n@0.0.18': {}
 
-  '@vvago/vale@3.17.0':
+  '@vvago/vale@3.17.1':
     dependencies:
       rimraf: 6.1.3
       tar: 7.5.22

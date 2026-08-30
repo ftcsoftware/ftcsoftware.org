@@ -1,3 +1,6 @@
 onlyBuiltDependencies:
     - esbuild
     - '@vvago/vale'
+
+allowBuilds:
+    '@vvago/vale': true
