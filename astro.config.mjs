@@ -12,7 +12,7 @@ import remarkCodeRegion from './src/plugins/remark-code-region';
 import { unified } from '@astrojs/markdown-remark';
 
 export default defineConfig({
-    site: 'https://frcsoftware.org',
+    site: 'https://ftcsoftware.org',
     prefetch: true,
 
     markdown: {
@@ -36,21 +36,21 @@ export default defineConfig({
 
     integrations: [
         starlight({
-            title: 'FRCSoftware.org',
+            title: 'FTCSoftware.org',
             favicon: '/favicon.svg',
             head: [
                 {
                     tag: 'meta',
                     attrs: {
                         property: 'og:image',
-                        content: 'https://frcsoftware.org/favicon.svg',
+                        content: 'https://ftcsoftware.org/favicon.svg',
                     },
                 },
                 {
                     tag: 'meta',
                     attrs: {
                         property: 'og:image:alt',
-                        content: 'FRCSoftware.org logo icon',
+                        content: 'FTCSoftware.org logo icon',
                     },
                 },
                 {
@@ -58,7 +58,7 @@ export default defineConfig({
                     attrs: {
                         property: 'og:description',
                         content:
-                            'The comprehensive learning guide for FRC programming',
+                            'The comprehensive learning guide for FTC programming',
                     },
                 },
             ],

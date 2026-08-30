@@ -41,7 +41,7 @@ jobs:
               run: |
                   # Set global git user for commits
                   git config --global user.name "Automated Sync"
-                  git config --global user.email "noreply@frcsoftware.org"
+                  git config --global user.email "noreply@ftcsoftware.org"
 
                   # Configure git to use your PAT for all HTTPS connections to GitHub
                   git config --global url."https://x-access-token:${{ secrets.COPYBARA_PAT }}@github.com/".insteadOf "https://github.com/"

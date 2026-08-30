@@ -27,7 +27,7 @@ jobs:
                       const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
                       const prNumber = context.payload.number;
                       const branch = `pr-${prNumber}`;
-                      const projectName = 'frcsoftware';
+                      const projectName = 'ftcsoftware';
                       const baseUrl = `https://api.cloudflare.com/client/v4/accounts/${accountId}/pages/projects/${projectName}/deployments`;
 
                       const headers = {

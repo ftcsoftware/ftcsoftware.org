@@ -1,6 +1,6 @@
 apply from: 'examples.gradle'
 
-rootProject.name = 'frcsoftware-examples'
+rootProject.name = 'ftcsoftware-examples'
 
 exampleProjectDirs.each { dir ->
     includeBuild(dir) {

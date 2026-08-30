@@ -2,7 +2,7 @@
 
 This repository contains the template code for the **Stage 1** curriculum using **CTRE** (Cross the Road Electronics) components.
 
-This project is part of the [frcsoftware.org](https://frcsoftware.org) curriculum, designed to help students and mentors learn modern FRC software development.
+This project is part of the [ftcsoftware.org](https://ftcsoftware.org) curriculum, designed to help students and mentors learn modern FTC software development.
 
 ## Getting Started
 
@@ -10,10 +10,10 @@ This project is part of the [frcsoftware.org](https://frcsoftware.org) curriculu
 - Open the folder in VS Code with the WPILib extension installed.
 - Follow the Stage 1 course to build your robot code!
 
-For more details, tutorials, and learning resources, visit the main curriculum at [frcsoftware.org](https://frcsoftware.org).
+For more details, tutorials, and learning resources, visit the main curriculum at [ftcsoftware.org](https://ftcsoftware.org).
 
 ## Contributing
 
 **Note:** This repository is an automatically generated mirror.
 Any issues or pull requests opened here will be closed.
-If you would like to contribute, report a bug, or suggest a change, please do so on the main repository at [frcsoftware/frcsoftware.org](https://github.com/frcsoftware/frcsoftware.org).
+If you would like to contribute, report a bug, or suggest a change, please do so on the main repository at [ftcsoftware/ftcsoftware.org](https://github.com/ftcsoftware/ftcsoftware.org).

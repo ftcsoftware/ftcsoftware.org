@@ -1,8 +1,8 @@
 {
-    "name": "frcsoftware-starlight",
+    "name": "ftcsoftware-starlight",
     "type": "module",
     "version": "0.0.1",
-    "packageManager": "pnpm@10.16.0",
+    "packageManager": "pnpm@11.24.0",
     "engines": {
         "node": ">=24.0.0"
     },
@@ -44,7 +44,7 @@
         "@types/estree": "^1.0.9",
         "@types/mdast": "^4.0.4",
         "@types/node": "^26.1.2",
-        "@vvago/vale": "^3.16.0",
+        "@vvago/vale": "^3.17.0",
         "astro-eslint-parser": "^1.4.0",
         "eslint": "^10.5.0",
         "eslint-plugin-astro": "^1.7.0",

@@ -1,5 +1,5 @@
 /*
- * Copyright 2026 FRCSoftware
+ * Copyright 2026 FTCSoftware
  *
  * SPDX-License-Identifier: BSD-3-Clause
  */

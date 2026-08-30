@@ -58,7 +58,7 @@ jobs:
               with:
                   apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
                   accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-                  command: pages deploy dist/ --project-name=frcsoftware --branch pr-${{ steps.get-pr.outputs.pr-number }}
+                  command: pages deploy dist/ --project-name=ftcsoftware --branch pr-${{ steps.get-pr.outputs.pr-number }}
                   gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
             - name: Comment PR with preview URL
@@ -71,7 +71,7 @@ jobs:
                           core.warning('No PR number available, skipping comment');
                           return;
                       }
-                      const previewUrl = `https://pr-${prNumber}.frcsoftware.pages.dev`;
+                      const previewUrl = `https://pr-${prNumber}.ftcsoftware.pages.dev`;
                       const { data: comments } = await github.rest.issues.listComments({
                           owner: context.repo.owner,
                           repo: context.repo.repo,

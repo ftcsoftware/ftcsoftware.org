@@ -1,6 +1,6 @@
-# FRCSoftware.org
+# FTCSoftware.org
 
-A community-driven learning course and resource hub for FRC software.
+A community-driven learning course and resource hub for FTC software.
 Built with [Astro](https://astro.build) and [Starlight](https://starlight.astro.build).
 
 All content is licensed under CC BY-NC-SA 4.0 except for the `examples` directory, which is licensed under the BSD 3-Clause license.
@@ -331,8 +331,8 @@ For multiple images, use the Slides component instead.
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/frcsoftware/frcsoftware.org
-    cd frcsoftware.org
+    git clone https://github.com/ftcsoftware/ftcsoftware.org
+    cd ftcsoftware.org
     ```
 
 2. **Install dependencies**
@@ -387,9 +387,9 @@ To deploy:
 
 ## Contributing
 
-See the [Contribution Guide](https://frcsoftware.org/contribution/) on the website for details on how to contribute to FRCSoftware.org.
+See the [Contribution Guide](https://ftcsoftware.org/contribution/) on the website for details on how to contribute to FTCSoftware.org.
 
 ## Links
 
-- [FRCSoftware.org](https://frcsoftware.org/)
-- [GitHub Repository](https://github.com/frcsoftware/frcsoftware.org)
+- [FTCSoftware.org](https://ftcsoftware.org/)
+- [GitHub Repository](https://github.com/ftcsoftware/ftcsoftware.org)
