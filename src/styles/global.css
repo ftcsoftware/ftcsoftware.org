@@ -15,26 +15,26 @@
     --sl-line-height: 1.7 !important;
 
     /* Brand Colors */
-    --accent-color: #924dc3;
-    --accent-color-hover: #762bac;
-    --accent-color-dark: #6b3393;
-    --accent-color-dark-hover: #502073;
+    --accent-color: #d94260;
+    --accent-color-hover: #b62b46;
+    --accent-color-dark: #9d2a41;
+    --accent-color-dark-hover: #751f30;
 }
 
 :root[data-theme='dark'] {
     --sl-color-text: #ffffff !important;
     --sl-color-white: #ffffff !important;
 
-    --sl-color-text-accent: #bb84e3 !important;
-    --sl-color-text-accent-hover: #a25ed2 !important;
+    --sl-color-text-accent: #ed8297 !important;
+    --sl-color-text-accent-hover: #e45874 !important;
 }
 
 :root[data-theme='light'] {
     --sl-color-text: #1a1a1a !important;
     --sl-color-white: #1a1a1a !important;
 
-    --sl-color-text-accent: #924dc3 !important;
-    --sl-color-text-accent-hover: #762bac !important;
+    --sl-color-text-accent: #ba2c48 !important;
+    --sl-color-text-accent-hover: #972139 !important;
 
     /* Darker aside backgrounds for better visibility in light mode */
     --sl-color-blue-low: rgba(56, 139, 253, 0.3) !important;
@@ -172,7 +172,7 @@ section[class*='hero'] a {
 section[class*='hero'] a:hover {
     background-color: var(--accent-color-hover) !important;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(163, 113, 247, 0.4);
+    box-shadow: 0 6px 20px rgba(217, 66, 96, 0.4);
 }
 
 .hero-actions a:active,
@@ -180,7 +180,7 @@ section[class*='hero'] a:hover {
 .hero a:active,
 section[class*='hero'] a:active {
     transform: translateY(0);
-    box-shadow: 0 2px 8px rgba(163, 113, 247, 0.3);
+    box-shadow: 0 2px 8px rgba(217, 66, 96, 0.3);
 }
 
 /* Arrow animation on hover */
@@ -413,7 +413,7 @@ html.lightbox-open [data-pagefind-ignore='all'] {
     background: linear-gradient(
         90deg,
         var(--accent-color) 0%,
-        #af7cd4 50%,
+        #ed6e87 50%,
         var(--accent-color) 100%
     );
     opacity: 0;
@@ -424,7 +424,7 @@ html.lightbox-open [data-pagefind-ignore='all'] {
     border-color: var(--accent-color) !important;
     box-shadow:
         0 8px 20px rgba(0, 0, 0, 0.12),
-        0 0 0 1px rgba(163, 113, 247, 0.3);
+        0 0 0 1px rgba(217, 66, 96, 0.3);
 }
 
 .sl-link-card:hover::before {
@@ -480,7 +480,7 @@ html.lightbox-open [data-pagefind-ignore='all'] {
 :root[data-theme='light'] .sl-link-card:hover {
     box-shadow:
         0 12px 24px rgba(0, 0, 0, 0.1),
-        0 0 0 1px rgba(163, 113, 247, 0.3);
+        0 0 0 1px rgba(217, 66, 96, 0.3);
 }
 
 :root[data-theme='light'] .sl-link-card .card-title {
