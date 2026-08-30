@@ -1,0 +1,9 @@
+{
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "ftcsoftware",
+    "compatibility_date": "2026-08-29",
+    "assets": {
+        "directory": "./dist"
+    },
+    "preview_urls": true
+}

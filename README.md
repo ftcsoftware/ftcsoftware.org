@@ -378,12 +378,11 @@ pnpm --version   # Should be 10.x or higher
 
 ## Deployment
 
-This site is configured for deployment on GitHub Pages using the workflow in `.github/workflows/deploy.yml`.
+Production is deployed by Cloudflare Workers Builds, which runs `pnpm run build` and then `npx wrangler deploy`.
+The site is static, so `wrangler.jsonc` serves `./dist` through Workers Static Assets rather than a Worker entrypoint.
 
-To deploy:
-
-1. Enable GitHub Pages in repository settings and set the source to **GitHub Actions**.
-2. Push to `main` (or run the workflow manually from the Actions tab).
+Pushing to `main` triggers a production deploy, and Cloudflare publishes preview URLs for pull requests.
+`.github/workflows/build.yml` builds every push and pull request as a CI check only; it does not deploy.
 
 ## Contributing
 

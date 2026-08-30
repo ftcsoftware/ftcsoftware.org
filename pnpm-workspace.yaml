@@ -1,6 +1,5 @@
-onlyBuiltDependencies:
-    - esbuild
-    - '@vvago/vale'
-
 allowBuilds:
+    esbuild: true
+    sharp: true
     '@vvago/vale': true
+    workerd: true
