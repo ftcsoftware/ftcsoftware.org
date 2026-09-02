@@ -24,9 +24,11 @@ jobs:
             # package.json, so pnpm stays in sync with the lockfile.
             - name: Install pnpm
               uses: pnpm/action-setup@v6
+              with:
+                  version: 11.24.0
 
             - name: Setup Node
-              uses: actions/setup-node@v6
+              uses: actions/setup-node@v7
               with:
                   node-version: 24
                   cache: pnpm
