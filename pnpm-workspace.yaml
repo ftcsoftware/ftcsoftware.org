@@ -3,3 +3,6 @@ allowBuilds:
     sharp: true
     '@vvago/vale': true
     workerd: true
+
+overrides:
+    'satteri': '^0.10.5'
