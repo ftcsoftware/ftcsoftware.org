@@ -1,19 +1,28 @@
----
+## import { Aside } from '@astrojs/starlight/components';
+
 title: Welcome to FTCSoftware.org
 description: A comprehensive learning guide and technical reference for FTC programming
 template: splash
 prev: false
 next: false
 hero:
-    tagline: The comprehensive learning guide and technical reference for FTC programming
-    image:
-        html: '<img src="/favicon.svg" alt="FTCSoftware.org logo" />'
-    actions:
-        - text: Start Learning
-          link: /learning-course/
+tagline: The comprehensive learning guide and technical reference for FTC programming
+image:
+html: '<img src="/favicon.svg" alt="FTCSoftware.org logo" />'
+actions: - text: Start Learning
+link: /learning-course/
+
 ---
 
 import HomeCard from '../../components/HomeCard.astro';
+import Aside from '../../components/Aside.astro';
+
+<Aside type="caution">
+
+    The FTCSoftware.org Learning Course is targeted towards the Systemcore control system using WPILib.
+    Teams using the legacy control system (REV Control Hub or Android Phone with Expansion Hub) should use other resources.
+
+</Aside>
 
 <div class="home-cards-grid">
     <HomeCard
